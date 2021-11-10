@@ -1,3 +1,6 @@
+
+//Download the VSCode extension REST Client for this to work
+
 GET http://localhost:3000/articles
 //Gets the list of every article
 ###
