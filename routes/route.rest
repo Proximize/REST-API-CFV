@@ -1,0 +1,33 @@
+GET http://localhost:3000/articles
+//Gets the list of every article
+###
+
+GET http://localhost:3000/articles/618b8d467c7f460f6af583fb
+//articles/ID
+###
+
+POST http://localhost:3000/articles
+//Adds an article
+Content-Type: application/json
+
+{
+    "title": "Man Drinks Coke with Mentos",
+    "tags": "gore explosion man",
+    "author": "Gelo",
+    "content": "Local man explodes blah blah blah blah blah"
+}
+
+###
+
+DELETE http://localhost:3000/articles/618b8d467c7f460f6af583fb
+//Deletes an article based on ID
+
+###
+
+PATCH http://localhost:3000/articles/618b8d467c7f460f6af583fb
+Content-Type: application/json
+//Updates
+
+{
+    "title": "NEW TITLE"
+}
