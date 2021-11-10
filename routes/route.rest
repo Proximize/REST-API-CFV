@@ -29,5 +29,8 @@ Content-Type: application/json
 //Updates
 
 {
-    "title": "NEW TITLE"
+    "title": "NEW TITLE",
+    "tags": null,
+    "author": null,
+    "content": null
 }
